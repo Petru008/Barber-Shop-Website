@@ -1,0 +1,238 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto Mono' sans-serif;
+  color: #495057;
+}
+
+.text-center{
+  text-align: center;
+}
+
+/* headings and logo */
+
+h1, h2{
+  font-family: 'Roboto Mono' sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #495057;
+}
+
+#logo{
+  float: left;
+  font-size: 200%;
+  margin-left: 30px;
+}
+
+/* navigation links */
+#menu{
+  font-size: 110%;
+  letter-spacing: 4px;
+}
+
+#logo, #menu{
+  line-height: 75px;
+}
+
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover{
+  border-bottom: 1px solid #495057;
+}
+
+/***HERO IMAGE***/
+
+#hero-outer{
+  height:800px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#hero-image{
+  height:800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /* Animates zoom effect on loading the page */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+/* Creates the level of zoom for hero image */
+@keyframes hero-zoom {
+  from{
+      transform: scale(1);
+  }
+  to{
+      transform: scale(1.1);
+  }
+}
+
+/* Descrition text */
+#description-text h2, #description-text p{
+  color:#ffffff;
+}
+
+#description-text{
+  font-size: 150%;
+  font-family: 'Roboto Mono' sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  height: 180px;
+  width: 700px;
+  padding-top: 40px;
+  padding-left: 10px;
+  background-color: rgba(67, 64, 64, 0.7);
+  bottom: 30px;
+  left: 100px;
+  position: absolute;
+}
+
+/* Services section */
+
+/************ Part of the code created with ChatGPT *********/
+ /* Style for the container */
+ .container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style for each column */
+.column {
+  flex: 1;
+  margin: 10px;
+  padding: 30px;
+  color: #495057;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 7%; 
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .column {
+      flex-basis: calc(50% - 20px); /* Two columns per row */
+  }
+}
+
+/* Additional styling for larger screens if desired */
+@media screen and (min-width: 1200px) {
+  .column {
+      flex-basis: calc(33.33% - 20px); /* Three columns per row */
+  }
+}
+
+/*********END of code created with help of ChatGPT***********/
+
+#services-container h2{
+ padding-top:25px; 
+ color: #495057;
+}
+
+#services-container{
+  margin: 30px;
+}
+
+.container h3{
+  font-size: 23px;
+  padding: 0 0 5px 0;
+  text-transform: uppercase;
+}
+
+.container li{
+list-style-type: none;
+padding-top: 5px;
+font-size: 20px;
+}
+
+/* .column:hover{
+  border: 1px solid #495057;
+} */
+
+i{
+  padding: 1px;
+}
+
+
+/****** GALLERY *******/
+
+.gallery-item img{
+  height: 200px;
+  width: 200px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+  box-shadow: #495057;
+}
+
+
+#gallery{
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0 40px 0;
+}
+
+#gallery h4{
+  font-size: 25px;
+  text-align: center;
+  padding-bottom:30px;
+}
+
+/****** REVIEWS ********/
+
+.reviews  img{
+  height: 50px;
+  width: 50px;
+  border-radius:50%;
+}
+
+#team  img{
+  height: 300px;
+  width: 300px;
+}
+
+#icon{
+  border-radius: 50%;
+}
+
+
+link #icon{
+  border-radius: 50%;
+}
