@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
+#body{
   font-family: 'Roboto Mono', sans-serif;
   color: #000000;
   background-color: #fa9f38;
@@ -115,12 +115,22 @@ body{
   display: flex;
   flex-wrap: wrap;
 }
+/* 
+#column h3{
+  text-align: center;
+} */
+
+/************/
+/* #text-center{
+  text-align: center;
+} */
+/************/
 
 /* Style for each column */
-.column {
+#column {
   flex: 1;
   margin: 10px;
-  padding: 30px;
+  padding: 20px;
   color: #000000;
   text-align: center;
   border: 1px solid transparent;
@@ -128,14 +138,14 @@ body{
 
 /* Media query for responsiveness */
 @media screen and (max-width: 768px) {
-  .column {
+  #column {
       flex-basis: calc(50% - 20px); /* Two columns per row */
   }
 }
 
 /* Additional styling for larger screens if desired */
 @media screen and (min-width: 1200px) {
-  .column {
+  #column {
       flex-basis: calc(33.33% - 20px); /* Three columns per row */
   }
 }
@@ -155,6 +165,7 @@ body{
   font-size: 23px;
   padding: 0 0 5px 0;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .container li{
@@ -162,10 +173,6 @@ list-style-type: none;
 padding-top: 5px;
 font-size: 20px;
 }
-
-/* .column:hover{
-  border: 1px solid #495057;
-} */
 
 i{
   padding: 1px;
