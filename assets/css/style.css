@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
-#body {
+body{
   font-family: 'Roboto Mono', sans-serif;
   color: #000000;
-  background-color: #f0aa20;
+  background-color: #fa9f38;
 }
 
 
@@ -216,17 +216,9 @@ i{
 
 /****** REVIEWS ********/
 
-.review{
-  padding: 10px;
-}
-
-.review h3{
-  padding: 5px;
-}
-
-.col  img{
-  height: 65px;
-  width: 65px;
+.reviews  img{
+  height: 50px;
+  width: 50px;
   border-radius:50%;
   border: 2px solid #4eefdf;
 }
