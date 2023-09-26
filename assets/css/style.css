@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Roboto Mono', sans-serif;
   color: #000000;
-  background-color: #fa9f38;
 }
+
 
 .text-center{
   text-align: center;
@@ -217,7 +217,41 @@ i{
 
 /****** REVIEWS ********/
 
-.reviews  img{
+.review-1{
+  background-color: rgb(255, 136, 0);
+}
+.review-2{
+  background-color: rgb(26, 206, 206);
+}
+.review-3{
+  background-color: yellow;
+}
+.review-4{
+  background-color: green;
+}
+
+.review-1,.review-2, .review-3, .review-4{
+  padding: 10px;
+}
+
+.review-1 h3{
+  padding: 5px;
+}
+
+.review-2 h3{
+  padding: 5px;
+}
+.review-3 h3{
+  padding: 5px;
+}
+.review-4 h3{
+  padding: 5px;
+}
+
+
+/****************************/
+
+.col  img{
   height: 50px;
   width: 50px;
   border-radius:50%;
