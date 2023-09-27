@@ -223,16 +223,19 @@ i {
 /****** REVIEWS ********/
 
 .review img {
-  height: 50px;
-  width: 50px;
+  height: 65px;
+  width: 65px;
   border-radius: 50%;
   border: 2px solid #4eefdf;
+  margin-bottom: 10px;
 }
 
 .review {
-  /* border-bottom: 1px solid #000000;
-  border-right: 1px solid #000000; */
-  padding: 10px;
+  padding: 20px;
+}
+
+.review p{
+  border-left: 1px solid #000000;
 }
 /****************************/
 
