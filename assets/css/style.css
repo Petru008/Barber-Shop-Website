@@ -212,6 +212,11 @@ i {
 margin: 30px 0;
 }
 
+.gallery p{
+  display: inline-flex;
+  align-items: center;
+}
+
 #gallery h4 {
   font-size: 25px;
   text-align: center;
