@@ -34,7 +34,8 @@
   letter-spacing: 4px;
 }
 
-#logo,#menu {
+#logo,
+#menu {
   line-height: 50px;
 }
 
@@ -99,7 +100,7 @@
   width: 500px;
   padding-left: 10px;
   background-color: #000000a1;
-  bottom:50px;
+  bottom: 50px;
   left: 50px;
   position: absolute;
 }
@@ -208,11 +209,11 @@ i {
   padding: 20px 0 40px 0;
 }
 
-.gallery{
-margin: 30px 0;
+.gallery {
+  margin: 30px 0;
 }
 
-.gallery p{
+.gallery p {
   display: inline-flex;
   align-items: center;
 }
@@ -299,16 +300,39 @@ margin: 30px 0;
   color: #ffffff;
 }
 
-
 /***** Media*******/
 
-@media screen and (max-width:943px) {
-  #menu{
-    clear:left;
+@media screen and (max-width: 943px) {
+  #menu {
+    clear: left;
     float: left;
-    margin-left:30px;
+    margin-left: 30px;
     margin-bottom: 20px;
     line-height: 25px;
   }
 }
 
+
+/******** FORM *******/
+
+#booking{
+  max-width: 90%;
+  margin: 35px auto;
+  padding: 25px 0;
+}
+
+#form{
+  max-width: 40%;
+  margin:0 auto;
+  padding: 25px;
+  border-radius: 5%;
+  background-color:aqua;
+}
+
+#drop-menu{
+  padding:20px 0;
+}
+
+#btn{
+  padding: 8px 24px;
+}
