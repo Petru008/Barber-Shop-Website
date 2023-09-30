@@ -6,8 +6,8 @@
 
 #body {
   font-family: "Roboto Mono", sans-serif;
-  color: #000000;
-  background-color: #fa9f38;
+  color: #414535;
+  background-color: #f2e3bc;
 }
 
 .text-center {
@@ -20,7 +20,7 @@
   font-family: "Roboto Mono", sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #000000;
+  color: #414535;
   float: left;
   font-size: 200%;
   margin-left: 30px;
@@ -51,7 +51,7 @@
 }
 
 #menu a:hover {
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #414535;
 }
 
 /***HERO IMAGE***/
@@ -86,9 +86,8 @@
 }
 
 /* Descrition text */
-#description-text h2,
 #description-text p {
-  color: #fa9f38;
+  color: #414535;
 }
 
 #description-text {
@@ -99,7 +98,7 @@
   height: 15 0px;
   width: 500px;
   padding-left: 10px;
-  background-color: #000000a1;
+  background-color: #f2e3bcd1;
   bottom: 50px;
   left: 50px;
   position: absolute;
@@ -132,7 +131,7 @@
   flex: 1;
   margin: 10px;
   padding: 20px;
-  color: #000000;
+  color: #414535;
   text-align: center;
   border: 1px solid transparent;
 }
@@ -155,7 +154,7 @@
 
 #services-container h2 {
   padding-top: 25px;
-  color: #000000;
+  color: #414535;
 }
 
 #services-container {
@@ -222,6 +221,8 @@ i {
   font-size: 25px;
   text-align: center;
   padding-bottom: 50px;
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 /****** REVIEWS ********/
@@ -230,7 +231,7 @@ i {
   height: 65px;
   width: 65px;
   border-radius: 50%;
-  border: 2px solid #4eefdf;
+  border: 2px solid #c19875;
   margin-bottom: 10px;
 }
 
@@ -239,7 +240,7 @@ i {
 }
 
 .review p {
-  border-left: 1px solid #000000;
+  border-left: 1px solid #618985;
 }
 /****************************/
 
@@ -252,6 +253,42 @@ i {
   border-radius: 50%;
 }
 
+/******** FORM *******/
+
+#booking{
+  max-width: 90%;
+  margin: 35px auto;
+  padding: 25px 0;
+}
+
+#form{
+  max-width: 40%;
+  margin:0 auto;
+  padding: 25px;
+  border-radius: 5%;
+  background-color:#c19875;
+}
+
+#drop-menu{
+  padding:20px 0;
+}
+
+#btn{
+  padding: 8px 24px;
+}
+
+#form #btn{
+  color:#414535;
+  background-color: #f2e3bc;
+  border: none;
+}
+
+#form #btn:hover{
+  color: #f2e3bc;
+  background-color:#414535;
+  border: none;
+}
+
 /******* FOOTER *******/
 
 .links ul {
@@ -260,12 +297,17 @@ i {
 
 .links a {
   text-decoration: none;
-  color: #000000;
+  color: #618985;
   padding-top: 10px;
 }
 
 .links a:hover {
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #96bbbb;
+  color: #96bbbb;
+}
+
+.contact h3{
+  color: #414535;
 }
 
 .open-hours,
@@ -279,6 +321,7 @@ i {
 .links li {
   padding-top: 10px;
   list-style-type: none;
+  color: #618985;
 }
 
 .social-networks {
@@ -293,11 +336,11 @@ i {
   font-size: 160%;
   margin: 1%;
   padding: 0 4%;
-  color: #474444;
+  color: #618985;
 }
 
 .social-networks i:hover {
-  color: #ffffff;
+  color: #96bbbb;
 }
 
 /***** Media*******/
@@ -326,7 +369,7 @@ i {
   margin:0 auto;
   padding: 25px;
   border-radius: 5%;
-  background-color:aqua;
+  background-color:#c19875;
 }
 
 #drop-menu{
