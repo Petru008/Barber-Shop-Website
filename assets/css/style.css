@@ -106,59 +106,19 @@
 
 /* Services section */
 
-/************ Part of the code created with ChatGPT *********/
-/* Style for the container */
-.container {
-  width: 90%;
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-}
-/* 
-#column h3{
-  text-align: center;
-} */
 
-/************/
-/* #text-center{
-  text-align: center;
-} */
-/************/
 
-/* Style for each column */
-#column {
-  flex: 1;
-  margin: 10px;
-  padding: 20px;
-  color: #414535;
-  text-align: center;
-  border: 1px solid transparent;
-}
-
-/* Media query for responsiveness */
-@media screen and (max-width: 768px) {
-  #column {
-    flex-basis: calc(50% - 20px); /* Two columns per row */
-  }
-}
-
-/* Additional styling for larger screens if desired */
-@media screen and (min-width: 1200px) {
-  #column {
-    flex-basis: calc(33.33% - 20px); /* Three columns per row */
-  }
-}
-
-/*********END of code created with help of ChatGPT***********/
-
-#services-container h2 {
-  padding-top: 25px;
+#services h2 {
+  padding: 25px 0 50px 0;
   color: #414535;
 }
 
-#services-container {
-  margin: 30px;
+.container #row{
+  padding-bottom:25px;
+}
+
+#services {
+  margin: 30px auto;
 }
 
 .container h3 {
@@ -256,9 +216,15 @@ i {
 /******** FORM *******/
 
 #booking{
-  max-width: 90%;
-  margin: 35px auto;
+  max-width: 100%;
+  margin: 0 auto;
   padding: 25px 0;
+}
+
+#booking h4{
+  text-transform: uppercase;
+  padding: 25px 0px;
+  color: #414535;
 }
 
 #form{
