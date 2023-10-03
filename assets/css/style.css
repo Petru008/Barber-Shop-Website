@@ -111,10 +111,15 @@
 
 #services h2 {
   padding: 25px 0 50px 0;
-  color: #414535;
+  align-items: center;
 }
 
-.container #row {
+#services li{
+  color: #618985;
+  align-items: center;
+}
+
+#services .row {
   padding-bottom: 50px;
 }
 
@@ -342,34 +347,21 @@ div .gallery {
     max-width: 70%;
   }
 
-  .gallery{
-    width: 1000px;
-  }
-
-  .gallery-item{
-    width: 350px;
-  }
-
-  .gallery p{
-    width: 300px;
-  }
-
-  #gallery-container{
-    max-width: 100%;
-    margin: 0 auto;
+  #gallery-container h4 {
+    max-width: 80%;
   }
 }
 
 @media screen and (max-width: 768px) {
   #gallery-container h4 {
-    max-width: 80%;
+    max-width: 90%;
   }
 
-  .gallery .gallery-item {
-    max-width: 150%;
-    align-content: center;
-    width: 600px;
+  #services .row .col{
+    padding-top: 20px;
   }
+
+
 }
 
 @media screen and (max-width: 575px) {
@@ -377,9 +369,15 @@ div .gallery {
     max-width: 95%;
   }
 
-  .gallery .gallery-item {
-    max-width: 150%;
-    align-content: center;
-    width: 450px;
+  #gallery-container h4 {
+    max-width: 100%;
+  }
+
+  #services .row .col{
+    padding-bottom: 20px;
+  }
+
+  #services .row {
+    padding-bottom: 0;
   }
 }
