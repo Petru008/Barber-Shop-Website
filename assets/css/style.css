@@ -109,15 +109,13 @@
 
 /******* Services section ********/
 
-
-
 #services h2 {
   padding: 25px 0 50px 0;
   color: #414535;
 }
 
-.container #row{
-  padding-bottom:50px;
+.container #row {
+  padding-bottom: 50px;
 }
 
 #services {
@@ -156,8 +154,7 @@ i {
 .gallery-item img {
   display: block;
   width: 100%;
-  transition: all 0.4s; 
- 
+  transition: all 0.4s;
 }
 
 .gallery-item img:hover {
@@ -171,8 +168,8 @@ i {
   padding: 20px 0 40px 0;
 }
 
-div .gallery{
-padding-top: 35px;
+div .gallery {
+  padding-top: 35px;
 }
 
 .gallery p {
@@ -207,51 +204,51 @@ padding-top: 35px;
   border-left: 1px solid #618985;
   color: #618985;
 }
-.review i{
+.review i {
   color: rgb(255, 217, 0);
   font-size: 20px;
 }
 
 /******** FORM *******/
 
-#booking{
+#booking {
   max-width: 90%;
   margin: 35px auto;
   padding: 25px 0;
 }
 
-#booking h4{
+#booking h4 {
   text-transform: uppercase;
   padding: 35px 0px;
   color: #414535;
   text-align: center;
 }
 
-#form{
+#form {
   max-width: 40%;
-  margin:0 auto;
+  margin: 0 auto;
   padding: 25px;
   border-radius: 5%;
-  background-color:#c19875;
+  background-color: #c19875;
 }
 
-#drop-menu{
-  padding:20px 0;
+#drop-menu {
+  padding: 20px 0;
 }
 
-#btn{
+#btn {
   padding: 8px 24px;
 }
 
-#form #btn{
-  color:#414535;
+#form #btn {
+  color: #414535;
   background-color: #f2e3bc;
   border: none;
 }
 
-#form #btn:hover{
+#form #btn:hover {
   color: #f2e3bc;
-  background-color:#414535;
+  background-color: #414535;
   border: none;
 }
 
@@ -272,7 +269,7 @@ padding-top: 35px;
   color: #96bbbb;
 }
 
-.contact h3{
+.contact h3 {
   color: #414535;
 }
 
@@ -290,21 +287,20 @@ padding-top: 35px;
   color: #618985;
 }
 
-#contact h6{
-text-align: center;
+#contact h6 {
+  text-align: center;
   color: #618985;
 }
 
-#contact h6 a{
+#contact h6 a {
   text-decoration: none;
   color: #618985;
 }
 
-#contact h6 a:hover{
+#contact h6 a:hover {
   color: #96bbbb;
-  border-bottom:1 px solid #96bbbb;
+  border-bottom: 1 px solid #96bbbb;
 }
-
 
 .social-networks {
   text-align: center;
@@ -328,7 +324,7 @@ text-align: center;
 /***** Media*******/
 
 @media screen and (max-width: 1200px) {
-  #form{
+  #form {
     max-width: 55%;
   }
 }
@@ -342,8 +338,25 @@ text-align: center;
     line-height: 25px;
   }
 
-  #form{
+  #form {
     max-width: 70%;
+  }
+
+  .gallery{
+    width: 1000px;
+  }
+
+  .gallery-item{
+    width: 350px;
+  }
+
+  .gallery p{
+    width: 300px;
+  }
+
+  #gallery-container{
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -352,16 +365,21 @@ text-align: center;
     max-width: 80%;
   }
 
-  .gallery .gallery-item{
+  .gallery .gallery-item {
     max-width: 150%;
     align-content: center;
+    width: 600px;
   }
 }
 
 @media screen and (max-width: 575px) {
-  #form{
+  #form {
     max-width: 95%;
   }
+
+  .gallery .gallery-item {
+    max-width: 150%;
+    align-content: center;
+    width: 450px;
+  }
 }
-
-
