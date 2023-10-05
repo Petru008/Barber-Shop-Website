@@ -114,7 +114,7 @@
   align-items: center;
 }
 
-#services li{
+#services li {
   color: #618985;
   align-items: center;
 }
@@ -357,11 +357,9 @@ div .gallery {
     max-width: 90%;
   }
 
-  #services .row .col{
+  #services .row .col {
     padding-top: 20px;
   }
-
-
 }
 
 @media screen and (max-width: 575px) {
@@ -373,7 +371,7 @@ div .gallery {
     max-width: 100%;
   }
 
-  #services .row .col{
+  #services .row .col {
     padding-bottom: 20px;
   }
 
