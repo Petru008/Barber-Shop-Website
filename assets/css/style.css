@@ -379,3 +379,28 @@ div .gallery {
     padding-bottom: 0;
   }
 }
+
+
+/*********** ABOUT US ************/
+
+#about-us-cont{
+  max-width: 80%;
+  margin: 50px auto;
+}
+
+#about-us-cont p{
+font-size: 1.2rem;
+line-height: 1.8;
+text-align: center;
+color: #618985
+}
+
+p em{
+  color: #414535de;
+}
+
+#about-us-cont h1, #about-us-cont h3{
+  max-width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
