@@ -152,14 +152,14 @@ i {
 }
 
 .gallery-item {
-  overflow: hidden;
-  border-radius: 20% 5%;
+  /* overflow: hidden; */
 }
 
 .gallery-item img {
   display: block;
   width: 100%;
   transition: all 0.4s;
+  border-radius: 15%;
 }
 
 .gallery-item img:hover {
@@ -404,3 +404,23 @@ p em{
   margin: 50px auto;
   text-align: center;
 }
+
+.about-us-img {
+  height: 500px;
+  width: 80%;
+  margin: 40px auto;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.about-us-img img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.about-us-img img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
