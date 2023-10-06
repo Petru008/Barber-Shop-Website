@@ -1,0 +1,80 @@
+@media screen and (max-width: 1200px) {
+  #form {
+    max-width: 55%;
+  }
+}
+
+@media screen and (max-width: 943px) {
+
+  #menu {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 50px;
+  }
+
+  #menu li{
+    margin-right: 15px;
+  }
+
+  #logo{
+    font-size: 180%;
+    letter-spacing: 3px;
+  }
+
+  #form {
+    max-width: 70%;
+  }
+
+  #gallery-container h4 {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  #gallery-container h4 {
+    max-width: 90%;
+  }
+
+  #services .row .col {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #logo{
+    font-size: 150%;
+  }
+  
+  #menu {
+    font-size: 100%;
+    clear: left;
+    float: left;
+    margin: 0 0 20px 0;
+    line-height: 25px;
+  }
+ 
+  #booking #form {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  #gallery-container h4 {
+    max-width: 100%;
+  }
+
+  #services .row .col {
+    padding-bottom: 20px;
+  }
+
+  #services .row {
+    padding-bottom: 0;
+  }
+}
