@@ -151,10 +151,6 @@ i {
   width: 350px;
 }
 
-.gallery-item {
-  /* overflow: hidden; */
-}
-
 .gallery-item img {
   display: block;
   width: 100%;
@@ -406,7 +402,7 @@ p em{
 }
 
 .about-us-img {
-  height: 500px;
+  height: 80%;
   width: 80%;
   margin: 40px auto;
   border-radius: 5%;
