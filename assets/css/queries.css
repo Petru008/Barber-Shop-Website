@@ -5,18 +5,17 @@
 }
 
 @media screen and (max-width: 943px) {
-
   #menu {
     margin-left: 20px;
     margin-bottom: 20px;
     line-height: 50px;
   }
 
-  #menu li{
+  #menu li {
     margin-right: 15px;
   }
 
-  #logo{
+  #logo {
     font-size: 180%;
     letter-spacing: 3px;
   }
@@ -49,10 +48,10 @@
 }
 
 @media screen and (max-width: 575px) {
-  #logo{
+  #logo {
     font-size: 150%;
   }
-  
+
   #menu {
     font-size: 100%;
     clear: left;
@@ -60,7 +59,7 @@
     margin: 0 0 20px 0;
     line-height: 25px;
   }
- 
+
   #booking #form {
     max-width: 95%;
     margin: 0 auto;

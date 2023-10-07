@@ -164,13 +164,15 @@ i {
 }
 
 #gallery-container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0 40px 0;
+  background-color: #f5e9c9;
 }
 
 div .gallery {
   padding-top: 35px;
+  margin-top:20px;
 }
 
 .gallery p {
@@ -298,13 +300,15 @@ p em{
 
 /******* FOOTER *******/
 
+
+
 .links ul {
   padding: 0 !important;
 }
 
 .links a {
   text-decoration: none;
-  color: #618985;
+  color:#618985;
   padding-top: 10px;
 }
 
