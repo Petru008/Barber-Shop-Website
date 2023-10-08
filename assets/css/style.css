@@ -11,8 +11,8 @@
   font-size: 100%;
 }
 
-ul{
-  padding-left: 0!important;
+ul {
+  padding-left: 0 !important;
 }
 
 #body {
@@ -28,6 +28,8 @@ ul{
 #text-center {
   text-align: center;
 }
+
+/********** NAVIGATION **********/
 
 /* headings and logo */
 
@@ -69,7 +71,7 @@ ul{
   border-bottom: 1px solid #414535;
 }
 
-/********* HERO IMAGE ********/
+/********* HERO SECTION ********/
 
 #hero-outer {
   height: 700px;
@@ -101,9 +103,6 @@ ul{
 }
 
 /* Descrition text */
-#description-text p {
-  color: #414535;
-}
 
 #description-text {
   font-size: 150%;
@@ -113,6 +112,7 @@ ul{
   width: 500px;
   padding-left: 10px;
   background-color: #f2e3bcd1;
+  color: #414535;
   bottom: 50px;
   left: 50px;
   position: absolute;
@@ -183,7 +183,7 @@ i {
 
 div .gallery {
   padding-top: 35px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .gallery p {
@@ -202,8 +202,8 @@ div .gallery {
 
 /****** REVIEWS ********/
 
-#reviews{
-background-color: #f7eed7;
+#reviews {
+  background-color: #f7eed7;
 }
 
 .review img {
@@ -273,23 +273,24 @@ background-color: #f7eed7;
 
 /*********** ABOUT US ************/
 
-#about-us-cont{
+#about-us-cont {
   max-width: 80%;
   margin: 50px auto;
 }
 
-#about-us-cont p{
-font-size: 1.2rem;
-line-height: 1.8;
-text-align: center;
-color: #618985
+#about-us-cont p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: left;
+  color: #618985;
 }
 
-p em{
+p em {
   color: #414535de;
 }
 
-#about-us-cont h1, #about-us-cont h3{
+#about-us-cont h1,#about-us-cont h2,
+#about-us-cont h3 {
   max-width: 80%;
   margin: 50px auto;
   text-align: center;
@@ -316,7 +317,9 @@ p em{
 
 /******* FOOTER *******/
 
-
+#contact {
+  margin-top: 3%;
+}
 
 .links ul {
   padding: 0 !important;
@@ -324,7 +327,7 @@ p em{
 
 .links a {
   text-decoration: none;
-  color:#618985;
+  color: #618985;
   padding-top: 10px;
 }
 
@@ -351,22 +354,22 @@ p em{
   color: #618985;
 }
 
-#contact h6 {
+#contact p {
   text-align: center;
   color: #618985;
 }
 
-#contact h6 a {
+#contact p a {
   text-decoration: none;
   color: #618985;
 }
 
-#contact h6 a:hover {
+#contact p a:hover {
   color: #96bbbb;
   border-bottom: 1 px solid #96bbbb;
 }
 
-#contact h5{
+#contact h5 {
   text-align: center;
   padding: 10px 0 15px 0;
 }
@@ -389,6 +392,3 @@ p em{
 .social-networks i:hover {
   color: #96bbbb;
 }
-
-
-
