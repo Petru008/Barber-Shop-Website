@@ -4,6 +4,7 @@ Welcome to the Future Barber-Shop project! This repository contains HTML, CSS, a
 
 ## Table of Contents
 - [Description](#description)
+- [Deployment](#deployment)
 - [Screenshots](#screenshots)
 - [Features](#features)
 - [Usage](#usage)
@@ -13,11 +14,19 @@ Welcome to the Future Barber-Shop project! This repository contains HTML, CSS, a
 - [Fonts](#fonts)
 - [Colors](#colors)
 - [Icons](#icons)
+- [Images](#images)
 
 
 ## Description
 The HTML, CSS, and Bootstrap files in this project make up the Future Barber-Shop website. It is a modern and stylish barber shop located in -08 Future Road AA0 8AA- . Our website showcases our services, allows you to book appointments online, and provides insight into our business history.
 
+## Deployment
+The project was deployed on GitHub by using Git commands such us:
+- Git add "Message"
+- Git commit -m "Message"
+- Git push 
+Each time the code was updated the updates were added to Staging Area using | Git add "message" command |, then each package of data was sent from Staging Area to Repository using | Git commit -m "message" command | where was used the title that best described the updated code that was done in that commit, and after that the package of data was Push to GitHub by using | Git Push command |.
+The project was deployed on Internet by using GitHub Pages.
 ## Screenshots
 <!-- Main page -->
 ![ Desktop Screenshot ](assets/Readme-img/Desktop-screencapture-petru008-github-io-Barber-Shop-Website-index-html-2023-10-08-17_11_47.png)
@@ -72,3 +81,10 @@ Our color scheme consists of the following colors:
 We use the following icons resources to build this project:
 - [Font Awesome](https://fontawesome.com/)
 - [Lordicon](https://lordicon.com/icons/wired/outline)
+
+## Images
+ We use the following platforms for images:
+ - [Unsplash](https://unsplash.com/)
+ -[Pexels](https://www.pexels.com/)
+
+ 
