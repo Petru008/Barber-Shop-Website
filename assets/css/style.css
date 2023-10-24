@@ -359,6 +359,10 @@ p em {
   color: #618985;
 }
 
+.open-hours ul strong{
+  color: #414535;
+}
+
 #contact p {
   text-align: center;
   color: #618985;

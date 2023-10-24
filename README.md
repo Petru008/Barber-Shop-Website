@@ -25,7 +25,7 @@ The project was deployed on GitHub by using Git commands such us:
 - Git add "Message"
 - Git commit -m "Message"
 - Git push 
-Each time the code was updated the updates were added to Staging Area using | Git add "message" command |, then each package of data was sent from Staging Area to Repository using | Git commit -m "message" command | where was used the title that best described the updated code that was done in that commit, and after that the package of data was Push to GitHub by using | Git Push command |.
+- Each time the code was updated the updates were added to Staging Area using | Git add "message" command |, then each package of data was sent from Staging Area to Repository using | Git commit -m "message" command | where was used the title that best described the updated code that was done in that commit, and after that the package of data was Push to GitHub by using | Git Push command |.
 The project was deployed on Internet by using GitHub Pages.
 ## Screenshots
 <!-- Main page -->
@@ -67,6 +67,7 @@ We use the following fonts in our project:
 - **Primary Font**: [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono)
 - **Secondary Font**: [Poppins ](https://fonts.google.com/specimen/Poppins?query=poppins)
 - **Safe Font**:[Sans-serif]
+
 ## Colors
 Our color scheme consists of the following colors:
 - **Primary Color**: #414535
@@ -87,4 +88,4 @@ We use the following icons resources to build this project:
  - [Unsplash](https://unsplash.com/)
  -[Pexels](https://www.pexels.com/)
 
- 
+ Testing
